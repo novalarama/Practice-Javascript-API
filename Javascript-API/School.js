@@ -46,3 +46,12 @@ app.post("/school",(request,response)=>{
 app.listen(8000, () => {
     console.log(`Server run on port 8000`);
 })
+
+// {
+//     "school" : [
+//         {"nama":"Jack","math":95,"english":80},
+//         {"nama":"John","math":70,"english":75},
+//         {"nama":"Jinn","math":60,"english":90},
+//         {"nama":"Zyn","math":80,"english":50}
+//     ]
+// }
