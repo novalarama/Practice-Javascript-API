@@ -36,9 +36,9 @@ app.post("/school",(request,response)=>{
         
     }
     return response.json({
+        Rata_rata : `${rata}`,
         lulus,
-        tidak_lulus,
-        Rata_rata : `${rata}`
+        tidak_lulus
     })
 })
 
